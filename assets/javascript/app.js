@@ -59,7 +59,6 @@ $(document).ready(function() {
     });
   }
 
-
   $('#addShow').on('click', function(event) {
     event.preventDefault();
     var tv = $('#showInput').val().trim();
@@ -71,9 +70,7 @@ $(document).ready(function() {
     };
   });
 
-
   $(document).on('click', '.character-btn', displayTVGifs);
-
 
   $(document).on('click', '.gif', function() {
 
@@ -86,7 +83,6 @@ $(document).ready(function() {
       $(this).attr('data-state', 'still');
     }
   });
-
 
   renderButtons();
 });
