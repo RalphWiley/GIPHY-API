@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <title>AnimatedGiphy</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron col-lg-11 col-md-11 col-sm-12 col-xs-12 mx-auto mb-0">
+        <h1 class="text-center">Animated TV Show GIFS</h1>
+        <div class="text-center" id="TVbuttons"></div>
+
+      </div>
+
+      <div class="container text-center">
+        <div class="jumbotron col-lg-4 mx-auto mb-0">
+
+          <form id="character-form">
+            <label class="h2" for="showInput">Add an Animated TV Show</label>
+            <input type="text" id="showInput">
+            <br>
+            <br>
+            <input class="btn-primary" id="addShow" type="submit" value="Add a Show">
+          </form>
+        </div>
+
+      </div>
+
+
+        <div class="jumbotron col-lg-11 col-md-11 col-sm-12 col-xs-12 mx-auto">
+          <h1 class="text-center">Click on the Giphy!</h1>
+          <div class="container" id="shows"></div>
+        </div>
+
+
+    </div>
+
+  <script type="text/javascript" src="assets/javascript/app.js">
+  </script>
+  </body>
+</html>
