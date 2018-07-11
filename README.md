@@ -8,6 +8,7 @@
 4. Enjoy!
 
 ## SCREEN SHOTS
+<img width="958" alt="screen shot 2018-07-10 at 11 07 40 pm" src="https://user-images.githubusercontent.com/33463643/42550266-5f28cd3c-8496-11e8-99b2-0383e8749c05.png">
 
 ## TECHNOLOGIES USED
 - Bootstrap
