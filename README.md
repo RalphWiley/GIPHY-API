@@ -6,3 +6,16 @@
 3. Submit a new show that is not already an option to see gifs of that show as well!
 
 4. Enjoy!
+
+## SCREEN SHOTS
+
+## TECHNOLOGIES USED
+- Bootstrap
+- jQuery
+- GIPHY API
+
+## BUILT WITH
+- Sublime 
+
+## AUTHOR
+- Nick Keith - HTML/CSS/JS
